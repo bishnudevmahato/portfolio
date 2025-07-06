@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/public/picture/bg-video.mp4
+/public/picture/bg-videos.mp4
+
+echo "public/picture/bg-video.mp4" >> .gitignore
+echo "public/picture/bg-videos.mp4" >> .gitignore
+
+
