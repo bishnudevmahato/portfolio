@@ -26,10 +26,10 @@ dist-ssr
 
 # Large video files to ignore
 
-public/picture/
-public/picture/bg-video.mp4
-public/picture/bg-videos.mp4
+# public/picture/
+# public/picture/bg-video.mp4
+# public/picture/bg-videos.mp4
 
 
-public/picture/
-public/picture/bg-video.mp4
+# public/picture/
+# public/picture/bg-video.mp4
