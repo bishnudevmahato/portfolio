@@ -1,0 +1,1007 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Urbanist, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color-scheme: light dark;
+}
+
+/* :root{
+  --bg-color: #f4f3ff;
+  --btn-color: #646cff;
+  --dark-color: #242424;
+  --helper-color: #99b9ff;
+} */
+
+.content-page{
+  flex:1;
+}
+
+html{
+  font-size: medium;
+}
+
+.body{
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1{
+  /* font-size: 5.4rem; */
+  line-height: 1.1rem;
+  font-weight: bold;
+}
+
+a{
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: var(--btn-color);
+  text-decoration: inherit;
+}
+
+.grid{
+  display: grid;
+  gap: 6.4rem;
+}
+
+.grid-two-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form{
+  margin-left: 0px;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+.header-title{
+  font-size: 2rem;
+  color: blue;
+  padding: 5px 0px;
+}
+
+.input-text{
+  height: 1.6rem;
+  margin: 0.5rem 0rem;
+  width: 100%;
+}
+
+.form-label{
+  font-size: 1.3rem;
+}
+
+.login-btn{
+  border-radius: 0.3rem;
+    border: 1px solid purple;
+    color: #fff;
+    background-color: purple;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+  box-shadow: inset 0 0 0 0.2rem blue;
+}
+
+            --------------- /* Footer Page CSS */ ---------------
+
+.footer-box{
+  text-align: center;
+  background-color: lightskyblue;
+  padding: 5px 0px;
+}
+
+.footer-content{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #3a29f7;
+}
+
+.footer-title{
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.footer-logo{
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.footer-social-logo{
+  padding: 0px 5px;
+}
+
+.footer-detail{
+  display: flex;
+  text-align: left;
+  padding: 2rem 3rem;
+}
+
+.footer-content1{
+  flex: 1;
+}
+.footer-content2{
+  flex: 1;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.fc-name{
+  margin-bottom: 0.6rem;
+  line-height: 2.4rem;
+  border: 1px solid red;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+}
+
+.fc-work1{
+  font-size: 1.4rem;
+}
+
+.fc-work2{
+  font-size: 1.4rem;
+}
+
+/* .user-logo{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 0px 10px;
+  display: flex;
+  height: 2.5rem;
+  line-height: 2.4rem;
+  transition: all 0.3s;
+}
+
+.user-logo:hover{
+  border: 2px solid blue;
+  background-color: #111;
+  color: #fff;
+} */
+
+.header-topics{
+  flex: 1;
+  line-height: 2.5rem;
+}
+
+.social-link{
+  flex: 1;
+  line-height: 2.5rem;
+}
+
+.footer-names{
+  cursor: pointer;
+}
+
+
+             --------------- /* Home Page CSS */ ---------------
+.home-container{
+  background-image: url('');
+  /* height: 30rem; */
+}
+
+/* video container */
+.video-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45rem;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 7rem 4rem;
+}
+
+.overlay-content h1{
+  font-weight: 400;
+}
+
+.first-h1{
+  font-size: 8rem;
+  /* text-transform: uppercase; */
+  display: flex;
+}
+.second-h1{
+  font-size: 8rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+}
+.third-h1{
+  font-size: 8rem;
+  text-transform: uppercase;
+  line-height: 8rem;
+}
+.fourth-h1{
+  font-size: 8rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 8rem;
+}
+.first-p{
+  font-size: 2rem;
+  /* text-transform:lowercase; */
+  padding: 0rem 0.2rem;
+  margin: 5.7rem 0.2rem 0rem 0.2rem; 
+}
+.second-p{ 
+  font-size: 2rem;
+  text-transform:lowercase;
+  padding: 0rem 0.2rem;
+  margin: 5.7rem 0.2rem 0rem 0.2rem;
+}
+.main-first-p{
+  line-height: 8rem;
+  text-transform: uppercase;
+}
+.main-second-p{
+  line-height: 8rem;
+}
+
+.profile-detail-box{
+  position: relative;
+}
+
+.profile-detail{
+  padding: 4rem 8rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+  font-weight: 250;
+}
+
+.profile-button-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dt-btn{
+  border-radius: 1.8rem;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  cursor: pointer;
+  font-weight: 200;
+  width: 15rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.m-btn{
+  background-color: #fff;
+  color: #111;
+}
+.c-btn{
+  background-color: #111;
+  color: #fff;
+}
+
+/* education section */
+
+.education-section{
+  height: 50rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  /* background-color: #ccc; */
+}
+
+.educ-btech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background-color: #f0f0f0; */
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+
+  .educ-btech-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    font-family: Cursive;
+
+    .first-title {
+      font-size: 4.8rem;
+      font-weight: 600;
+      padding-left: 5rem;
+      font-style: italic;
+    }
+
+    .second-title {
+      font-size: 7.2rem;
+      font-weight: 500;
+      padding-left: 10rem;
+      font-family: cursive;
+    }
+
+    .third-title {
+      font-size: 4rem;
+      font-weight: 500;
+      padding-left: 15rem;
+      font-family: cursive;
+
+      strong{
+        font-weight: 600;
+        padding-left: 0.5rem;      }
+    }
+  }
+
+  .educ-btech-details {
+    font-size: 1.2rem;
+    color: #666;
+  }
+}
+
+.educ-courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background-color: #f0f0f0; */
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+        /* -------------- Work Page CSS -------------- */
+
+.work-profile-box{
+  padding: 1rem 2.5rem;
+}
+
+.w-p-d-data{
+  padding: 1rem 0rem;
+}
+
+.ul-data{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+/* options A */
+.page-background {
+  background: radial-gradient(circle at top left, #0f172a, #111827, #1e1e2f);
+  min-height: 100vh;
+  padding: 40px 80px;
+}
+
+.experience-box {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 40px 0;
+  color: #e2e8f0;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.experience-left {
+  flex: 1;
+  min-width: 240px;
+}
+
+.experience-right {
+  flex: 2;
+  position: relative;
+}
+
+.with-line::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background-color: currentColor;
+  border-radius: 4px;
+}
+
+.experience-purple {
+  background: linear-gradient(135deg, #1e1e2f, #2b2c3d);
+  border-left: 5px solid #a78bfa;
+}
+
+.experience-blue {
+  background: linear-gradient(135deg, #1e293b, #1e40af);
+  border-left: 5px solid #38bdf8;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f0abfc;
+  margin-bottom: 8px;
+}
+
+.experience-blue .job-title {
+  color: #60a5fa;
+}
+
+.company {
+  font-size: 16px;
+  font-style: italic;
+  color: #a0aec0;
+}
+
+.date {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 8px;
+}
+
+.experience-points {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+.experience-points li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 1.7;
+  position: relative;
+  padding-left: 24px;
+}
+
+.experience-points li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: #a78bfa;
+}
+
+.experience-blue .experience-points li::before {
+  color: #38bdf8;
+}
+
+.experience-points strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.github-link {
+  color: #7dd3fc;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.github-link:hover {
+  color: #bae6fd;
+}
+
+
+
+
+.experience-green {
+  background: linear-gradient(135deg, #0f5132, #14532d);
+  border-left: 5px solid #4ade80; /* soft green */
+  box-shadow: 0 10px 25px rgba(74, 222, 128, 0.2);
+}
+
+.experience-orange {
+  background: linear-gradient(135deg, #5d2d6d, #873d9d);
+  border-left: 5px solid #ce69d5;
+  box-shadow: 0 10px 30px rgba(207, 30, 242, 0.3);
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* margin-top: 20px; */
+}
+
+.badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+}
+
+/* Individual Badge Colors */
+.badge.angular {
+  background-color: #dd0031;
+}
+
+.badge.ionic {
+  background-color: #3880ff;
+}
+
+.badge.capacitor {
+  background-color: #0b6ef6;
+}
+
+.badge.dotnet {
+  background-color: #512bd4;
+}
+
+.badge.mysql {
+  background-color: #00758f;
+}
+
+.badge.vue {
+  background-color: #42b883;
+}
+
+.badge.figma {
+  background-color: #f24e1e;
+}
+
+.badge.react {
+  background-color: #61dafb;
+  color: #000;
+}
+
+.badge.context {
+  background-color: #a78bfa;
+}
+
+.badge.async {
+  background-color: #818cf8;
+}
+
+.badge.nav {
+  background-color: #0ea5e9;
+}
+
+.badge.github {
+  background-color: #333;
+}
+
+.experience-points strong {
+  color: #fbe087; /* soft yellow/gold for contrast */
+  font-weight: 600;
+}
+
+
+.tech-stack-details {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tech-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #60a5fa; /* Light blue highlight */
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.tech-block {
+  margin-bottom: 32px;
+  position: relative;
+  padding-left: 24px;
+  border-left: 3px solid #38bdf8;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+
+.tech-block::before {
+  /* content: ''; */
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: #38bdf8;
+  border-radius: 50%;
+}
+
+.tech-block h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fcd34d; 
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.tech-block p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.tech-block:hover {
+  border-left-color: #7dd3fc;
+  transform: translateX(20px);
+  cursor: pointer;
+  background-color: #a613ef;
+}
+
+.p-name{
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: chartreuse;
+  display: flex;
+}
+
+.p-name h1{
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+---------------------- /* Certification page  */ ----------------------
+
+
+.education-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(30, 64, 175, 0.2);
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #60a5fa;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  margin: 12px auto 0;
+  background-color: #38bdf8;
+  border-radius: 4px;
+}
+
+.edu-block {
+  margin-bottom: 48px;
+  padding-left: 24px;
+  border-left: 4px solid #38bdf8;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.edu-block:hover {
+  transform: translateY(-4px);
+  border-left-color: #7dd3fc;
+}
+
+.edu-block h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fcd34d;
+  margin-bottom: 6px;
+}
+
+.institute {
+  font-size: 15px;
+  color: #a0aec0;
+  margin-bottom: 14px;
+  font-style: italic;
+}
+
+.edu-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.edu-points li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #e2e8f0;
+}
+
+.edu-points li::before {
+  content: \"✔\";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #38bdf8;
+  font-size: 16px;
+}
+
+
+
+-----------------------------/* Resume Page CSS */------------------------------
+
+.resume-section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.resume-header {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.resume-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px; /* adds space between button and resume card */
+}
+
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background 0.3s ease;
+}
+
+.download-resume-btn:hover {
+  background: linear-gradient(135deg, #585bf4, #317df6);
+}
+
+
+.resume-card {
+  background: linear-gradient(to bottom right, #1e293b, #273549);
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  color: #e2e8f0;
+  line-height: 1.8;
+
+  /* A4-like proportions and center alignment */
+  width: 80%;            /* A4 width in pixels at 96dpi */
+  min-height: 1123px;      /* A4 height in pixels at 96dpi */
+  margin: 0 auto;          /* centers the card */
+  background-color: #1e293b;
+  margin-bottom: 50px;
+}
+
+@media print {
+  .resume-card {
+    box-shadow: none;
+    border-radius: 0;
+    width: auto;
+    padding: 0;
+    background: white;
+    color: black;
+  }
+}
+
+.resume-card h3 {
+  color: #fcd34d;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.resume-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resume-card ul li {
+  margin-bottom: 10px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.resume-card ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+}
+
+.resume-card a {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.resume-card a:hover {
+  color: #7dd3fc;
+}
+
+.resume-header-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume-header-info h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #facc15; /* bright yellow */
+  margin-bottom: 5px;
+}
+
+.resume-title {
+  font-size: 20px;
+  color: #93c5fd; /* soft blue */
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.resume-contact {
+  font-size: 15px;
+  color: #cbd5e1; /* light gray-blue */
+}
+
+.educationDate{
+  text-align: right;
+}
+
+
+
+------------------------------ Contact.css ------------------------------
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: #0f172a;
+  min-height: 100vh;
+}
+
+.book-shadow {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  background: radial-gradient(circle at center, #fffef0, #f6ecd6);
+  padding: 40px;
+  width: 80%;
+  margin: 20px 10%;
+}
+
+.contact-card {
+  display: flex;
+  border-radius: 12px;
+  background: #fdf7e2;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Simulate book spine/fold */
+.contact-card::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #e5dec6, #b9a987);
+  box-shadow: 0 0 8px #00000033;
+  z-index: 2;
+}
+
+.book-page {
+  flex: 1;
+  padding: 40px 30px;
+  min-height: 480px;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #fffdf5, #f6eddc);
+  color: #333;
+}
+
+.contact-left {
+  border-right: 1px solid #e7dbc2;
+}
+
+.contact-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #a16207;
+}
+
+.title {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #fffef8;
+  border: 1px solid #d6bb8f;
+  color: #1f2937;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  background: linear-gradient(to right, #facc15, #f59e0b);
+  color: #1f2937;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, #f59e0b, #facc15);
+}
+
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: -6px;
+}
+
+.thanks-msg {
+  color: #16a34a;
+  font-size: 18px;
+  margin-top: 20px;
+}

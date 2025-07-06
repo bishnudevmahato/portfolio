@@ -1,0 +1,78 @@
+/* ===== Header Styles ===== */
+.header-box {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 14px 32px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: 80px;
+
+  }
+  
+  /* ===== Container to space content ===== */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* ===== Logo Styling ===== */
+  .user-logo a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 14px;
+    border: 2px solid white;
+    border-radius: 999px;
+    text-decoration: none;
+  }
+
+  .user-logo a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .user-logo a.active {
+    background-color: #9333ea; /* violet */
+    color: white;
+  }
+  
+  /* ===== Nav Links Container ===== */
+  .header-topic {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ===== Individual Link Styling ===== */
+  .header-link a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+    font-size: 16px;
+    border-radius: 999px;
+    transition: background 0.3s ease;
+  }
+  
+  .header-link a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* ===== Active Page Link Highlight ===== */
+  .header-link a.active {
+    background-color: #9333ea; /* violet */
+    color: white;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+  
