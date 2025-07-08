@@ -44,7 +44,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="education-section">
+                    <div className="educ-section">
                         <div className="educ-btech">
                             <div className="educ-btech-title">
                                 <div className="first-title">Eductation</div>
