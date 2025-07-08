@@ -11,7 +11,8 @@ const Home = () => {
                     <div className="home-content">
                         <div className="video-container">
                             <video autoPlay loop muted playsInline className="background-video">
-                                <source src="/picture/bg-videos.mp4" type="video/mp4" />
+                                {/* <source src="/picture/bg-videos.mp4" type="video/mp4" /> */}
+                                <source src="https://res.cloudinary.com/dwjtbxbxa/video/upload/bg-videos_j5vzah.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                             <div className="overlay-content">
