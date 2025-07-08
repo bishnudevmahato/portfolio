@@ -29,4 +29,4 @@ cd portfolio
 npm install
 
 ## Run the project
-sudo npm run dev
+sudo npm run dev / npm run dev
